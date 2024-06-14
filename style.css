@@ -15,6 +15,11 @@ div.image-side {
     flex: 1 1 50dvw;
 }
 
+div.logo-side {
+    background-color: #000000;
+    color: #fff;
+}
+
 div.form-side {
     flex: 1 1 50dvw;
 }
