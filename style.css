@@ -15,8 +15,16 @@ div.image-side {
     flex: 1 1 50dvw;
 }
 
+div.image-side > div:first-child {
+    height: 50dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 div.logo-side {
-    background-color: #000000;
+    background-color: #00000098;
+    text-align: center;
 }
 
 div.image-side > div {
