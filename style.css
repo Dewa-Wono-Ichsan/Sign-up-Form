@@ -20,6 +20,10 @@ div.logo-side {
     color: #fff;
 }
 
+div.image-side > div {
+    color: #fff;
+}
+
 div.form-side {
     flex: 1 1 50dvw;
 }
