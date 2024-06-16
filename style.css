@@ -70,6 +70,11 @@ form {
     background-color: #fff;
 }
 
+legend {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
 fieldset {
     border: 0px;
     border-bottom: 1px solid #000;
@@ -83,4 +88,9 @@ fieldset > div {
 fieldset > div > span {
     display: flex;
     flex-direction: column;
+}
+
+fieldset > div:first-child > span:last-child {
+    display: flex;
+    justify-content: end;
 }
