@@ -74,3 +74,13 @@ fieldset {
     border: 0px;
     border-bottom: 1px solid #000;
 }
+
+fieldset > div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+fieldset > div > span {
+    display: flex;
+    flex-direction: column;
+}
