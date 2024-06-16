@@ -54,3 +54,13 @@ div.image-side > div {
 div.form-side {
     flex: 1 1 50dvw;
 }
+
+div.form-side > h3:first-child {
+    margin-top: 100px;
+}
+
+div.form-side > h3 {
+    margin-top: 40px;
+    margin-right: 180px;
+    margin-left: 20px;
+}
