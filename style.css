@@ -95,10 +95,16 @@ fieldset > div:first-child > span:last-child {
     justify-content: end;
 }
 
+button, h6 {
+    margin-left: 20px;
+}
+
 button {
+    margin-top: 20px;
     font-size: 1rem;
 }
 
 h6, a {
+    margin-top: 10px;
     font-size: 0.9rem;
 }
