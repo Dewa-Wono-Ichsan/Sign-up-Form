@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Norse Bold';
+    src: url('assets/Norse-Bold.otf') format('opentype');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -25,9 +30,10 @@ div.image-side > div:first-child {
 div.logo-side {
     background-color: #00000098;
     text-align: center;
-    font-size: 4rem;
+    font-size: 5rem;
     display: flex;
     justify-content: center;
+    font-family: 'Norse Bold';
 }
 
 div.logo-side > img {
