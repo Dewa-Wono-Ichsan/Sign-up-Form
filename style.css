@@ -27,6 +27,13 @@ div.image-side > div:first-child {
     justify-content: center;
 }
 
+div.image-side > div:last-child {
+    height: 50dvh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
 div.logo-side {
     background-color: #00000098;
     text-align: center;
