@@ -102,6 +102,17 @@ button, h6 {
 button {
     margin-top: 20px;
     font-size: 1rem;
+    font-weight: 600;
+    background-color: #596D48;
+    color: #fff;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
 }
 
 h6, a {
