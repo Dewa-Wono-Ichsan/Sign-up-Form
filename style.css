@@ -57,11 +57,11 @@ div.form-side {
 
 div.form-side > h3:first-child {
     margin-top: 100px;
+    margin-right: 180px;
 }
 
 div.form-side > h3 {
     margin-top: 40px;
-    margin-right: 180px;
     margin-left: 20px;
 }
 
@@ -118,4 +118,19 @@ a {
 h6, a {
     margin-top: 10px;
     font-size: 0.9rem;
+}
+
+@media (max-width:718px) {
+    fieldset > div {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:1400px) {
+    div.form-side > h3:first-child {
+        margin-top: 20px;
+        margin-right: 30px;
+        display: flex;
+        flex-direction: column;
+    }
 }
