@@ -73,11 +73,16 @@ form {
 legend {
     font-size: 1.3rem;
     font-weight: 600;
+    margin-bottom: 30px;
 }
 
 fieldset {
     border: 0px;
     border-bottom: 1px solid #000;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 fieldset > div {
